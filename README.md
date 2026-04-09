@@ -6,6 +6,13 @@ This repository mirrors the structure and usage of the referenced UDP demo, but 
 
 Find your machine's IP: `ipconfig` (Windows) or `ifconfig` / `ip addr` (Linux/macOS).
 
+## Clone
+
+```bash
+git clone https://github.com/HaoboChen11/tcp-demo.git
+cd tcp-demo
+```
+
 ## Files
 
 - `server.py`: TCP server that accepts a connection, reads one message, and replies in uppercase.
